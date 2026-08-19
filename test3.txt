@@ -6,16 +6,16 @@ step-1: done
     step-1.1: done
     step-1.2: done
 
-step-2: ongoing
+step-2: done
 
-step-3: not-started
-    step-3.1: not-started
-    step-3.2: not-started
-    step-3.3: not-started
-    step-3.4: not-started
+step-3: done
+    step-3.1: done
+    step-3.2: done
+    step-3.3: done
+    step-3.4: done
 
-step-4: not-started
-    step-4.1: not-started
+step-4: ongoing
+    step-4.1: done
     step-4.2: not-started
 
 step-5: not-started
