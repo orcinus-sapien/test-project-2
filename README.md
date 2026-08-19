@@ -45,7 +45,7 @@ TOKEN=$(~/.openclaw/scripts/mint_github_app_token.sh)
 #### step-3.3
 uses token to fetch current remote state
 ```bash
-git fetch "https://x-access-token:${TOKEN}@github.com/orcinus-sapien/test-project.git" master:refs/remotes/origin/master
+git fetch "https://x-access-token:${TOKEN}@github.com/orcinus-sapien/<project-name>.git" master:refs/remotes/origin/master
 ```
 
 #### step-3.4
@@ -68,7 +68,7 @@ to create a new branch and switch to it
 #### step-4.2
 after commiting changes, pushes to github using token
 ```bash
-git push "https://x-access-token:${TOKEN}@github.com/orcinus-sapien/test-project.git" remora/<new_branch_name>
+git push "https://x-access-token:${TOKEN}@github.com/orcinus-sapien/<project-name>.git" remora/<new_branch_name>
 ```
 
 ### step-5
@@ -76,7 +76,7 @@ agent-side: agent creates a pull request using token, for human to review and me
 ```bash
 TOKEN=$(~/.openclaw/scripts/mint_github_app_token.sh)
 GH_TOKEN="${TOKEN}" gh pr create \
-  --repo orcinus-sapien/test-project \
+  --repo orcinus-sapien/<project-name> \
   --head remora/<new_branch_name> \
   --base master \
   --title "<PR_title>" \
