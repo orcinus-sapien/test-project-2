@@ -14,14 +14,14 @@ step-3: done
     step-3.3: done
     step-3.4: done
 
-step-4: ongoing
+step-4: done
     step-4.1: done
-    step-4.2: not-started
+    step-4.2: done
 
-step-5: not-started
+step-5: done
 
-step-6: not-started
+step-6: done
 
 ---
 
-test ongoing
+test passed
