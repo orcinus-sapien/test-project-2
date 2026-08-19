@@ -1,0 +1,27 @@
+test<number>
+
+---
+
+step-1: ongoing/not-started/done
+    step-1.1: ongoing/not-started/done
+    step-1.2: ongoing/not-started/done
+
+step-2: ongoing/not-started/done
+
+step-3: ongoing/not-started/done
+    step-3.1: ongoing/not-started/done
+    step-3.2: ongoing/not-started/done
+    step-3.3: ongoing/not-started/done
+    step-3.4: ongoing/not-started/done
+
+step-4: ongoing/not-started/done
+    step-4.1: ongoing/not-started/done
+    step-4.2: ongoing/not-started/done
+
+step-5: ongoing/not-started/done
+
+step-6: ongoing/not-started/done
+
+---
+
+test ongoing/passed/failed
